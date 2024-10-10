@@ -1,6 +1,4 @@
 
-
-
 .azeret-mono-Normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -32,9 +30,6 @@
     margin: 0 auto;
     
 }
-.banner-img{
-    
-}
 .banner-items{
     padding-top: 26px;
     text-align: center;
@@ -62,8 +57,9 @@
     margin-bottom: 45px;
 }
 main{
-    width: 1140px;
+    fixed-width :1140px;
 }
+
 .main-section{
     background-color:rgba(13, 19, 33, 0.02) ;
     width: 1140px;
@@ -142,4 +138,110 @@ main{
     padding: 10px;
     border: 1px solid black;
     
+}
+.video-section{
+    text-align: center;
+    width: 1400px;  
+    margin-top: 10px; 
+    
+}
+.video-title{
+    text-align:center ;
+    font-size: 35px;
+    font-weight: 800;
+    font-weight: bold;
+}
+.video-description{
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    color: rgb(65, 65, 65);
+    padding: 0 300px;
+}
+.video{
+    border-radius: 10px;
+    border: 1px solid rgb(138, 135, 135);
+    padding: 20px;
+    margin-top: 20px;
+}
+.videos{
+    border-radius: 10px;
+}
+.target-section{
+    width: 1140px;
+    margin: 130px 150px;
+}
+.html-card{
+    width: 300px;
+    background-color: rgb(255,76,30,0.05);
+    padding: 25px;
+    border-radius: 10px;
+}
+.css-card{
+    background-color:rgba(0, 76, 232, 0.05) ;
+}
+.javascript{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.html-card h4{
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+}
+.html-card p{
+    font-size: 16px;
+    color: rgb(94, 93, 93);
+    
+}
+.html-card a{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+}
+.all-card{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 48px;
+}
+.next-target h4{
+   text-align: center;
+   font-size: 32px;
+   font-weight: 800;
+   color: rgb(13, 19, 33);
+   
+}
+.next-target p{
+    text-align: center;
+    
+}
+.target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.react{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    border: 1px solid rgb(127, 127, 124);
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 24px;
+    margin: 20px;
+}
+.react-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.react-description{
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(13, 19, 33) ;
+}
+.react-a{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
 }
