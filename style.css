@@ -245,3 +245,50 @@ main{
     font-size: 16px;
     color: rgb(13, 19, 33);
 }
+.footer{
+    background-image: url(./assingment-1/assets/handshake.jpg);
+    width: 1140px;
+    margin: 50px 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 50px;
+}
+.footer-title h4{
+    font-size: 32px;
+    font-weight: 700;
+    color:
+    rgb(255, 255, 255) ;
+}
+.footer-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(181, 179, 179) ;
+    text-align: center;
+}
+.input-filed{
+    align-items: center;
+    gap: 20px;
+}
+.input-type{
+    padding: 20px ;
+    width: 313px;
+    border-radius: 10px;
+    border: none;
+}
+.submit-btn{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(13, 19, 33) ;
+    border-radius: 10px;
+    border: none;
+}
+
